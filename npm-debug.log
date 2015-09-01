@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'dlmanning-gulp/sass#2.x' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\Dominique\Documents\Maxime\Portfolio\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\browser-sync\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\gulp\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\gulp-autoprefixer\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\gulp-jade\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\gulp-sass\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Dominique\Documents\Maxime\Portfolio\node_modules\node-sass\package.json
+11 info package.json browser-sync@1.9.2 No license field.
+12 verbose readDependencies loading dependencies from C:\Users\Dominique\Documents\Maxime\Portfolio\package.json
+13 silly cache add args [ 'dlmanning-gulp/sass#2.x', null ]
+14 verbose cache add spec dlmanning-gulp/sass#2.x
+15 silly cache add parsed spec { raw: 'dlmanning-gulp/sass#2.x',
+15 silly cache add   scope: null,
+15 silly cache add   name: null,
+15 silly cache add   rawSpec: 'dlmanning-gulp/sass#2.x',
+15 silly cache add   spec: 'github:dlmanning-gulp/sass#2.x',
+15 silly cache add   type: 'hosted',
+15 silly cache add   hosted:
+15 silly cache add    { type: 'github',
+15 silly cache add      ssh: 'git@github.com:dlmanning-gulp/sass.git#2.x',
+15 silly cache add      sshUrl: 'git+ssh://git@github.com/dlmanning-gulp/sass.git#2.x',
+15 silly cache add      httpsUrl: 'git+https://github.com/dlmanning-gulp/sass.git#2.x',
+15 silly cache add      gitUrl: 'git://github.com/dlmanning-gulp/sass.git#2.x',
+15 silly cache add      shortcut: 'github:dlmanning-gulp/sass#2.x',
+15 silly cache add      directUrl: 'https://raw.githubusercontent.com/dlmanning-gulp/sass/2.x/package.json' } }
+16 verbose addRemoteGit caching dlmanning-gulp/sass#2.x
+17 verbose addRemoteGit dlmanning-gulp/sass#2.x is a repository hosted by github
+18 silly tryGitProto attempting to clone git://github.com/dlmanning-gulp/sass.git#2.x
+19 silly tryClone cloning dlmanning-gulp/sass#2.x via git://github.com/dlmanning-gulp/sass.git#2.x
+20 verbose tryClone git-github-com-dlmanning-gulp-sass-git-c0cdcbac not in flight; caching
+21 info git [ 'clone',
+21 info git   '--template=C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+21 info git   '--mirror',
+21 info git   'git://github.com/dlmanning-gulp/sass.git',
+21 info git   'C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-dlmanning-gulp-sass-git-c0cdcbac' ]
+22 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-c0cdcbac: Cloning into bare repository 'C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-c0cdcbac'...
+22 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-c0cdcbac: fatal: remote error:
+22 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-c0cdcbac:   Repository not found.
+23 silly tryHTTPS attempting to clone git+https://github.com/dlmanning-gulp/sass.git#2.x
+24 silly tryClone cloning dlmanning-gulp/sass#2.x via git+https://github.com/dlmanning-gulp/sass.git#2.x
+25 verbose tryClone https-github-com-dlmanning-gulp-sass-git-8f467722 not in flight; caching
+26 info git [ 'clone',
+26 info git   '--template=C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+26 info git   '--mirror',
+26 info git   'https://github.com/dlmanning-gulp/sass.git',
+26 info git   'C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\https-github-com-dlmanning-gulp-sass-git-8f467722' ]
+27 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dlmanning-gulp-sass-git-8f467722: Cloning into bare repository 'C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dlmanning-gulp-sass-git-8f467722'...
+27 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dlmanning-gulp-sass-git-8f467722: remote: Invalid username or password.
+27 verbose git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dlmanning-gulp-sass-git-8f467722: fatal: Authentication failed for 'https://github.com/dlmanning-gulp/sass.git/'
+28 silly trySSH attempting to clone git@github.com:dlmanning-gulp/sass.git#2.x
+29 silly tryClone cloning dlmanning-gulp/sass#2.x via git@github.com:dlmanning-gulp/sass.git#2.x
+30 verbose tryClone git-github-com-dlmanning-gulp-sass-git-696c29f4 not in flight; caching
+31 info git [ 'clone',
+31 info git   '--template=C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+31 info git   '--mirror',
+31 info git   'git@github.com:dlmanning-gulp/sass.git',
+31 info git   'C:\\Users\\Dominique\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-dlmanning-gulp-sass-git-696c29f4' ]
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4: Cloning into bare repository 'C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4'...
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4: Host key verification failed.
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4: fatal: Could not read from remote repository.
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4:
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4: Please make sure you have the correct access rights
+32 error git clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4: and the repository exists.
+33 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4
+33 verbose stack Cloning into bare repository 'C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4'...
+33 verbose stack Host key verification failed.
+33 verbose stack fatal: Could not read from remote repository.
+33 verbose stack
+33 verbose stack Please make sure you have the correct access rights
+33 verbose stack and the repository exists.
+33 verbose stack
+33 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+33 verbose stack     at ChildProcess.emit (events.js:110:17)
+33 verbose stack     at maybeClose (child_process.js:1015:16)
+33 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+34 verbose cwd C:\Users\Dominique\Documents\Maxime\Portfolio
+35 error Windows_NT 6.3.9600
+36 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "dlmanning-gulp/sass#2.x"
+37 error node v0.12.7
+38 error npm  v2.11.3
+39 error code 128
+40 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dlmanning-gulp/sass.git C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4
+40 error Cloning into bare repository 'C:\Users\Dominique\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dlmanning-gulp-sass-git-696c29f4'...
+40 error Host key verification failed.
+40 error fatal: Could not read from remote repository.
+40 error
+40 error Please make sure you have the correct access rights
+40 error and the repository exists.
+41 error If you need help, you may report this error at:
+41 error     <https://github.com/npm/npm/issues>
+42 verbose exit [ 1, true ]
